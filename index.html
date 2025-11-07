@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <h1>What Is Html?</h1>
+    <hr>
+    <h5>HTML is</h5>
+    </a>
+</head>
+<style> body {
+              background: url("Background2grass.png") no-repeat center center fixed;
+        background-size: cover;
+            font-family: Sisukieli-Regular;
+
+        }
+  h5 {
+
+    color: Red;
+                text-align: center;
+    }
+    h1 {
+    color: blue;
+    text-align: center;
+    }
+    button1 {
+    color: red;
+    border-radius: 8px;
+    border: 2px solid red;
+    box-shadow: 2x 4x 5x(0, 0, 0,)
+    }
+     h5 {
+            color: red;
+            text-align: center;
+            background-color: rgba(255, 255, 255, 0.8); /* light box behind text */
+            border: 2px solid red;
+            border-radius: 8px;
+            padding: 10px;
+            width: 80%;
+            margin: 20px auto;
+            box-shadow: 2x 4x 5x(0, 0, 0,)
+        }
+button1 {
+    color: orange;
+    background-color: white;
+    lenght: 43px;
+    width: 10px;
+</style>
+<body>
+<h5> Hypertext Markup Language (HTML) is the standard markup language for documents
+    web content. It is often assisted by technologies such as Cascading Style Sheets (CSS)
+    and scripting languages such as JavaScript.
+
+    Web browsers receive HTML documents from a web server or from local storage and render
+    the documents into multimedia web pages. HTML describes the structure of a web page semantically
+    and originally included cues for its appearance.
+
+    HTML elements are the building blocks of HTML pages. With HTML constructs, images and
+    other objects such as interactive forms may be embedded into the rendered page. HTML provides a means to create structured
+    documents by denoting structural semantics for text such as headings, paragraphs, lists, links, quotes, and other items. HTML elements
+    are delineated by tags, written using angle brackets. Tags such as < img > and < input > directly introduce content into the page. Other tags such as <p> and </p> surround and provide information about document text and may include sub-element tags. Browsers do not display the HTML tags, but use them to interpret the content of the page.
+it is used for
+    HTML can embed programs written in a scripting language such as JavaScript, which affects
+    the behavior and content of web pages. The inclusion of CSS defines the look and layout of content.
+    The World Wide Web Consortium (W3C), former maintainer of the HTML and current maintainer of the CSS standards,
+    has encouraged the use of CSS over explicit presentational HTML since 1997.[3] A form of HTML, known as HTML5,
+    is used to display video and audio, primarily using the  element, together with JavaScript. </h5>
+<input id="answer" type="text" placeholder="What is HTML" >
+<button onclick="checkAnswer()">Check</button>
+<p id="result"></p>
+<script>
+    function checkAnswer() {
+    let userAnswer = document.getElementById("answer").value;
+    if (userAnswer == "HTML is Markup Language") {
+    document.getElementById("result").textContent = "Correct Answer!";
+    } else {
+    document.getElementById("result").textContent = "Wrong Answer!";
+
+        }
+       }
+
+</script>
+<a href="https://www.w3schools.com/html/"> Learn HTML today! </a>
+<img src="PONG!.png">
+<button1
+        onclick="window.location.href='https://www.youtube.com/watch?v=-tt98ICTHtQ&list=PLZPZq0r_RZOOj_NOZYq_R2PECIMglLemc'">
+learn Java Today!
+</button1>
+<button onclick="window.location.href='https://www.youtube.com/@JellyCat-TheBattleCats'">
+    Made By @Jellycat-TheBattleCats
+</button>
+<iframe
+    width="1000"
+    height="700"
+    src="https://www.youtube.com/embed/ok-plXXHlWw"
+    ></iframe>
+<hr><hr>
+<hr>
+<hr>
+<hr>
+
+
+<iframe
+        width="1000"
+    height="700"
+    src="Java%20in%20100%20Seconds.mp4"
+    allowfullscreen>
+></iframe>
+
+</body>
+</html>
